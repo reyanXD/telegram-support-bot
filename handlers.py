@@ -14,7 +14,6 @@ def start(update, context):
         """,
     )
 
-
 def setup_dispatcher(dp):
     dp.add_handler(CommandHandler('start', start))
     return dp
