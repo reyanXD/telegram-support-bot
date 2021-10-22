@@ -4,7 +4,6 @@ from telegram.ext import CommandHandler, MessageHandler, Filters
 from settings import WELCOME_MESSAGE, TELEGRAM_SUPPORT_CHAT_ID
 
 def start(update, context):
-    update.message.reply_text(WELCOME_MESSAGE)
 
     user_info = update.message.from_user.to_dict()
 
