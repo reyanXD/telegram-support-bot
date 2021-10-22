@@ -1,7 +1,7 @@
 import os
 from telegram.ext import CommandHandler, MessageHandler, Filters
 
-from settings import WELCOME_MESSAGE, TELEGRAM_SUPPORT_CHAT_ID
+from settings import TELEGRAM_SUPPORT_CHAT_ID
 
 def start(update, context):
 
